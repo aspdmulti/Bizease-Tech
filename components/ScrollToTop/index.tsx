@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false);
@@ -28,7 +29,7 @@ export default function ScrollToTop() {
   }, []);
 
   return (
-    <div className="fixed bottom-8 right-8 z-[99]">
+    <div className="fixed bottom-8 right-8 z-[99] flex flex-col items-center justify-center gap-2">
       {isVisible && (
         <div
           onClick={scrollToTop}
@@ -39,6 +40,16 @@ export default function ScrollToTop() {
           <span className="sr-only">scroll to top</span>
         </div>
       )}
+      <div>
+        <a
+          href="https://wa.me/6285711899575"
+          target="_blank"
+          aria-label="WhatsApp"
+          className="flex h-12 w-12 items-center justify-center rounded-full bg-[#25D366] text-white shadow-md transition duration-300 ease-in-out hover:bg-opacity-90"
+        >
+          <FaWhatsapp size={24} />
+        </a>
+      </div>
     </div>
   );
 }

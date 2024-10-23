@@ -3,6 +3,7 @@ import Image from "next/image";
 import SectionHeader from "../Common/SectionHeader";
 import { useContext } from "react";
 import { LanguageContext } from "@/app/context/LanguageContext";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Pricing = () => {
   const { language, setLanguage } = useContext(LanguageContext);
@@ -252,6 +253,16 @@ const Pricing = () => {
                 </div>
               </>
             )}
+          </div>
+          <div className="mx-auto mt-5 flex w-full justify-center">
+            <a
+              href="https://wa.me/6285711899575"
+              target="_blank"
+              className="flex items-center rounded-md bg-primary px-4 py-2 text-center text-white transition duration-300 hover:bg-opacity-90"
+            >
+              <FaWhatsapp className="mr-2" />
+              {language == "eng" ? "Contact Us" : "Hubungi Kami"}
+            </a>
           </div>
         </div>
       </section>
