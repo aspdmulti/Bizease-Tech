@@ -8,7 +8,10 @@ import FeaturesTab from "@/components/FeaturesTab";
 
 export const metadata: Metadata = {
   title: "Your All-in-One Software Solution",
-  description: "Software / program developer",
+  description:
+    "Bizease Tech adalah pengembang software dan aplikasi SaaS yang membantu perusahaan dalam digitalisasi dan efisiensi operasional.",
+  keywords:
+    "pengembangan software, solusi SaaS, digitalisasi bisnis, aplikasi perusahaan, teknologi informasi",
 };
 
 export default function Home() {
