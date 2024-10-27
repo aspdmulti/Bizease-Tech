@@ -20,7 +20,7 @@ const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
 
   return (
     <>
-      <div className="flex flex-col justify-between xl:flex-row">
+      <div className="flex flex-col items-center justify-between gap-3 xl:flex-row xl:gap-0">
         <motion.div
           variants={{
             hidden: {
