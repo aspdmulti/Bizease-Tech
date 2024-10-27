@@ -29,7 +29,7 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
         <div className="relative flex h-16 w-16 items-center justify-center rounded-[4px] bg-[#C64D27]">
           <div className="text-3xl text-white">{icon}</div>
         </div>
-        <h3 className="mb-5 mt-7.5 text-xl font-semibold text-black dark:text-white xl:text-itemtitle">
+        <h3 className="mb-5 mt-7.5 text-xl font-semibold text-black dark:text-white xl:text-2xl">
           {title}
         </h3>
         <p>{description}</p>

@@ -17,35 +17,35 @@ const featuresDataIndo: Feature[] = [
     icon: <AiFillProduct />,
     title: "Products Management",
     description:
-      "Atur bahan-bahan yang diperlukan untuk produk Anda. Selain meninjau daftar bahan sebagai prosedur standar, Anda juga dapat melihat biaya yang diperlukan untuk setiap produk, sehingga lebih mudah untuk menentukan harga jualnya.",
+      "Atur bahan-bahan penyusun yang diperlukan untuk produk Anda dan lacak keluar masuknya.",
   },
   {
     id: 3,
     icon: <FaUsers />,
     title: "HRD Management",
     description:
-      "Kelola karyawan Anda mulai dari gaji, posisi, periode perubahan gaji atau posisi, pinjaman, biaya asuransi, dan lainnya. Semua data ini akan dicatat dan mudah diakses melalui penggunaan filter berdasarkan kebutuhan Anda.",
+      "Kelola karyawan Anda mulai dari gaji, posisi, ketentuan bonus, pinjaman, biaya asuransi, dan lainnya.",
   },
   {
     id: 4,
     icon: <IoMdConstruct />,
     title: "Operational Management",
     description:
-      "Kelola berbagai tahap operasi bisnis Anda, termasuk melacak status suatu proses atau barang, mencatat biaya operasional, dan lainnya.",
+      "Kelola berbagai tahap operasi bisnis Anda, seperti melacak status suatu proses atau barang, mencatat biaya operasional, dan lainnya.",
   },
   {
     id: 5,
     icon: <GiMoneyStack />,
     title: "Investment Records",
     description:
-      "Selain mencatat biaya operasional, Anda juga dapat mendokumentasikan biaya investasi Anda, sehingga lebih mudah bagi Anda saat membuka cabang baru atau memulai bisnis serupa.",
+      "Catat biaya investasi yang telah anda keluarkan, dan kategorikan investasi tersebut.",
   },
   {
     id: 6,
     icon: <IoMdCloud />,
     title: "Online, Offline, or Hybrid",
     description:
-      "Anda dapat memutuskan apakah perangkat lunak yang kami rancang akan beroperasi secara online, offline, atau dalam mode hibrid, memberikan Anda fleksibilitas.",
+      "Tentukan apakah perangkat lunak Anda akan beroperasi secara online, offline, hibrid, memberikan Anda fleksibilitas.",
   },
 ];
 

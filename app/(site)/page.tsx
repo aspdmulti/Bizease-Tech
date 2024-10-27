@@ -4,6 +4,7 @@ import Feature from "@/components/Features";
 import About from "@/components/About";
 import FunFact from "@/components/FunFact";
 import Pricing from "@/components/Pricing";
+import FeaturesTab from "@/components/FeaturesTab";
 
 export const metadata: Metadata = {
   title: "Your All-in-One Software Solution",
@@ -15,6 +16,7 @@ export default function Home() {
     <main>
       <Hero />
       <Feature />
+      <FeaturesTab />
       <About />
       <Pricing />
       <FunFact />

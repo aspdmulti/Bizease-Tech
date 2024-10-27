@@ -17,14 +17,14 @@ const featuresData: Feature[] = [
     icon: <AiFillProduct />,
     title: "Products Management",
     description:
-      "Organize the ingredients needed for your products. In addition to reviewing the ingredient list as a standard procedure, you can also see the cost required for each product, making it easier to determine its selling price.",
+      "Manage the necessary ingredients for your product and track their inventory in and out.",
   },
   {
     id: 3,
     icon: <FaUsers />,
     title: "HRD Management",
     description:
-      "Manage your employees starting from salaries, positions, salary or position change periods, loans, insurance costs, and more. All this data will be recorded and easily accessible through the use of filters based on your needs.",
+      "Manage your employees starting from salaries, positions, bonus criteria, loans, insurance costs, and more.",
   },
   {
     id: 4,
@@ -38,14 +38,14 @@ const featuresData: Feature[] = [
     icon: <GiMoneyStack />,
     title: "Investment Records",
     description:
-      "In addition to recording operational expenses, you can also document your investment costs, making it easier for you when opening a new branch or starting a similar business.",
+      "Record the investment costs you have incurred and categorize those investments.",
   },
   {
     id: 6,
     icon: <IoMdCloud />,
     title: "Online, Offline, or Hybrid",
     description:
-      "You can decide whether the software we design will operate online, offline, or in a hybrid mode, providing you with flexibility.",
+      "Decide whether the your software will operate online, offline, or hybrid, providing you with flexibility.",
   },
 ];
 

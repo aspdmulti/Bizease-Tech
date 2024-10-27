@@ -90,7 +90,13 @@ const FunFact = () => {
               viewport={{ once: true }}
               className="animate_top text-center"
             >
-              <img src="/images/shape/a-twin.png" className="m-auto w-36" />
+              <Image
+                alt=""
+                width={500}
+                height={500}
+                src="/images/shape/a-twin.png"
+                className="m-auto w-36"
+              />
               {language == "eng" ? (
                 <p className="text-lg lg:text-para2">Cafe & Bistro</p>
               ) : (
@@ -115,7 +121,13 @@ const FunFact = () => {
               viewport={{ once: true }}
               className="animate_top text-center"
             >
-              <img src="/images/shape/beta.png" className="m-auto w-36" />
+              <Image
+                alt=""
+                width={500}
+                height={500}
+                src="/images/shape/beta.png"
+                className="m-auto w-36"
+              />
               {language == "eng" ? (
                 <p className="text-lg lg:text-para2">Water Supplier</p>
               ) : (
@@ -140,7 +152,13 @@ const FunFact = () => {
               viewport={{ once: true }}
               className="animate_top text-center"
             >
-              <img src="/images/shape/karimata.png" className="m-auto w-36" />
+              <Image
+                alt=""
+                width={500}
+                height={500}
+                src="/images/shape/karimata.png"
+                className="m-auto w-36"
+              />
               {language == "eng" ? (
                 <p className="text-lg lg:text-para2">Restaurant</p>
               ) : (
@@ -165,7 +183,13 @@ const FunFact = () => {
               viewport={{ once: true }}
               className="animate_top text-center"
             >
-              <img src="/images/shape/qisthi.png" className="m-auto w-36" />
+              <Image
+                alt=""
+                width={500}
+                height={500}
+                src="/images/shape/qisthi.png"
+                className="m-auto w-36"
+              />
               {language == "eng" ? (
                 <p className="text-lg lg:text-para2">Catering Needs Supplier</p>
               ) : (
