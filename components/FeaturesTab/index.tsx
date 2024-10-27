@@ -88,7 +88,7 @@ const FeaturesTab = () => {
             whileInView="visible"
             transition={{ duration: 0.5, delay: 0.1 }}
             viewport={{ once: true }}
-            className="animate_top mb-15 flex flex-wrap justify-center rounded-[10px] border border-stroke bg-white shadow-solid-5 dark:border-strokedark dark:bg-blacksection dark:shadow-solid-6 md:flex-nowrap md:items-center lg:gap-7.5 xl:mb-21.5 xl:gap-12.5"
+            className="animate_top mb-7 flex flex-wrap justify-center rounded-[10px] border border-stroke bg-white shadow-solid-5 dark:border-strokedark dark:bg-blacksection dark:shadow-solid-6 md:flex-nowrap md:items-center lg:gap-7.5 xl:mb-21.5 xl:gap-12.5"
           >
             <div
               onClick={() => setCurrentTab("tabOne")}
@@ -98,7 +98,7 @@ const FeaturesTab = () => {
                   : ""
               }`}
             >
-              <div className="flex h-12.5 w-12.5 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
+              <div className="flex h-8 w-8 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
                 <p className="text-metatitle3 font-medium text-black dark:text-white">
                   01
                 </p>
@@ -117,7 +117,7 @@ const FeaturesTab = () => {
                   : ""
               }`}
             >
-              <div className="flex h-12.5 w-12.5 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
+              <div className="flex h-8 w-8 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
                 <p className="text-metatitle3 font-medium text-black dark:text-white">
                   02
                 </p>
@@ -136,7 +136,7 @@ const FeaturesTab = () => {
                   : ""
               }`}
             >
-              <div className="flex h-12.5 w-12.5 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
+              <div className="flex h-8 w-8 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
                 <p className="text-metatitle3 font-medium text-black dark:text-white">
                   03
                 </p>
@@ -155,14 +155,14 @@ const FeaturesTab = () => {
                   : ""
               }`}
             >
-              <div className="flex h-12.5 w-12.5 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
+              <div className="flex h-8 w-8 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
                 <p className="text-metatitle3 font-medium text-black dark:text-white">
                   04
                 </p>
               </div>
-              <div className="md:w-3/5 lg:w-auto">
+              <div className="md:w lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                  Operationals & Investments Management
+                  Operational & Investment Management
                 </button>
               </div>
             </div>
