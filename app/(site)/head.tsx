@@ -12,6 +12,10 @@ export default function Head() {
         content="pengembangan software, SaaS, digitalisasi, aplikasi perusahaan, jasa IT"
       />
       <link rel="icon" href="/images/favicon.ico" />
+      <meta
+        name="google-site-verification"
+        content="ri__sNpQQtK2g0IN3saaHsg_RhYzR0x4_kiTokew890"
+      />
     </>
   );
 }
