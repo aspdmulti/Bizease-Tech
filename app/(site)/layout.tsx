@@ -12,6 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 import ToasterContext from "../context/ToastContext";
 import { useState } from "react";
 import { LanguageContext } from "../context/LanguageContext";
+import Head from "./head";
 export default function RootLayout({
   children,
 }: {
@@ -20,6 +21,7 @@ export default function RootLayout({
   const [language, setLanguage] = useState("indo");
   return (
     <html lang="en" suppressHydrationWarning>
+      <Head />
       <body className={`dark:bg-black ${inter.className}`}>
         <ThemeProvider
           enableSystem={false}
