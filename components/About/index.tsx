@@ -80,8 +80,8 @@ const About = () => {
                   </h2>
                   <p>
                     Access your various data easily through a clear interface
-                    and multiple filters. For online operation, you can view
-                    your data in real-time from anywhere and at any time
+                    and multiple filters. You can view your data in real-time
+                    from anywhere and at any time
                   </p>
 
                   <div className="mt-7.5 flex items-center gap-5">
@@ -133,9 +133,8 @@ const About = () => {
                   </h2>
                   <p>
                     Akses berbagai data Anda dengan mudah melalui antarmuka yang
-                    jelas dan berbagai filter. Untuk operasi online, Anda dapat
-                    melihat data Anda secara real-time dari mana saja dan kapan
-                    saja.
+                    jelas dan berbagai filter.Anda dapat melihat data Anda
+                    secara real-time dari mana saja dan kapan saja.
                   </p>
 
                   <div className="mt-7.5 flex items-center gap-5">

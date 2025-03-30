@@ -1,6 +1,7 @@
 import { Feature } from "@/types/feature";
 import { GiShoppingCart, GiMoneyStack } from "react-icons/gi";
-import { FaUsers } from "react-icons/fa";
+import { FaUsers, FaUserShield } from "react-icons/fa";
+import { MdAccessTime } from "react-icons/md";
 import { IoMdConstruct, IoMdCloud } from "react-icons/io";
 import { AiFillProduct } from "react-icons/ai";
 
@@ -8,16 +9,16 @@ const featuresDataIndo: Feature[] = [
   {
     id: 1,
     icon: <GiShoppingCart />,
-    title: "Transactions",
+    title: "Transaction / Invoicing",
     description:
       "Tangani semua proses transaksi mulai dari input barang, pembuatan faktur, pelacakan transaksi, laporan penjualan, dan laporan inventaris.",
   },
   {
     id: 2,
     icon: <AiFillProduct />,
-    title: "Products Management",
+    title: "Product, Project, & Client Management",
     description:
-      "Atur bahan-bahan penyusun yang diperlukan untuk produk Anda dan lacak keluar masuknya.",
+      "Kelola semua informasi produk, project, dan klien Anda dengan mudah.",
   },
   {
     id: 3,
@@ -28,24 +29,24 @@ const featuresDataIndo: Feature[] = [
   },
   {
     id: 4,
-    icon: <IoMdConstruct />,
-    title: "Operational Management",
+    icon: <GiMoneyStack />,
+    title: "Expenses Record",
     description:
-      "Kelola berbagai tahap operasi bisnis Anda, seperti melacak status suatu proses atau barang, mencatat biaya operasional, dan lainnya.",
+      "Catat segala bentuk pengeluaran mulai dari biaya tetap, investasi, budget marketing, dan lainnya untuk pengambilan keputusan yang lebih baik.",
   },
   {
     id: 5,
-    icon: <GiMoneyStack />,
-    title: "Investment Records",
+    icon: <FaUserShield />,
+    title: "Role-based Access",
     description:
-      "Catat biaya investasi yang telah anda keluarkan, dan kategorikan investasi tersebut.",
+      "Atur akses pengguna sesuai dengan peran atau jabatan yang telah Anda tentukan.",
   },
   {
     id: 6,
-    icon: <IoMdCloud />,
-    title: "Online, Offline, or Hybrid",
+    icon: <MdAccessTime />,
+    title: "Anytime, Anywhere",
     description:
-      "Tentukan apakah perangkat lunak Anda akan beroperasi secara online, offline, hibrid, memberikan Anda fleksibilitas.",
+      "Pantau bisnis Anda secara real-time dari perangkat apa pun, kapan saja, dan di mana saja.",
   },
 ];
 

@@ -8,16 +8,16 @@ const featuresData: Feature[] = [
   {
     id: 1,
     icon: <GiShoppingCart />,
-    title: "Transactions",
+    title: "Transaction / Invoicing",
     description:
       "Handle all transaction processes from item input, invoice creation, transaction tracker, sales report, and inventory report.",
   },
   {
     id: 2,
     icon: <AiFillProduct />,
-    title: "Products Management",
+    title: "Product, Project, & Client Management",
     description:
-      "Manage the necessary ingredients for your product and track their inventory in and out.",
+      "Manage all your product, project, and client information effortlessly.",
   },
   {
     id: 3,
@@ -28,24 +28,24 @@ const featuresData: Feature[] = [
   },
   {
     id: 4,
-    icon: <IoMdConstruct />,
-    title: "Operational Management",
+    icon: <GiMoneyStack />,
+    title: "Expenses Record",
     description:
-      "Manage various stages of your business operations, including tracking the status of a process or item, recording operational costs, and more.",
+      "Record all expenses, from fixed costs and investments to marketing budgets and more, for better decision-making.",
   },
   {
     id: 5,
     icon: <GiMoneyStack />,
-    title: "Investment Records",
+    title: "Role-based Access",
     description:
-      "Record the investment costs you have incurred and categorize those investments.",
+      "Atur akses pengguna sesuai dengan peran atau jabatan yang telah Anda tentukan.",
   },
   {
     id: 6,
     icon: <IoMdCloud />,
-    title: "Online, Offline, or Hybrid",
+    title: "Anytime, Anywhere",
     description:
-      "Decide whether the your software will operate online, offline, or hybrid, providing you with flexibility.",
+      "Monitor your business in real-time from any device, anytime, anywhere.",
   },
 ];
 

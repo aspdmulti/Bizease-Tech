@@ -21,16 +21,16 @@ const Pricing = () => {
               <SectionHeader
                 headerInfo={{
                   title: `PRICING`,
-                  subtitle: `Development Pricing`,
-                  description: `Get the best deal for your business solution. The prices below do not include server maintenance for online or hybrid operation.`,
+                  subtitle: `Subscription Pricing`,
+                  description: `Get the best deal for your business solution.`,
                 }}
               />
             ) : (
               <SectionHeader
                 headerInfo={{
                   title: `HARGA`,
-                  subtitle: `Harga Pengembangan`,
-                  description: `Dapatkan penawaran terbaik untuk solusi bisnis Anda. Harga di bawah ini tidak termasuk biaya pemeliharaan server untuk operasi online atau hibrid.`,
+                  subtitle: `Harga Berlangganan`,
+                  description: `Dapatkan penawaran terbaik untuk solusi bisnis Anda.`,
                 }}
               />
             )}
@@ -55,22 +55,22 @@ const Pricing = () => {
                   <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
                     Basic
                   </h3>
-                  <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
+                  {/* <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
                     Start from{" "}
-                  </h4>
+                  </h4> */}
                   <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
-                    Rp 5.000.000{" "}
-                    <span className="text-regular text-waterloo dark:text-manatee">
+                    Rp 500.000/Month{" "}
+                    {/* <span className="text-regular text-waterloo dark:text-manatee">
                       ,-
-                    </span>
+                    </span> */}
                   </h4>
                   <div className="mt-9 border-t border-stroke pb-12.5 pt-9 dark:border-strokedark">
                     <ul>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Transaction Processes
+                        Transaction / Invoicing Processes
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Products Management
+                        Product, Project, & Client Management
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
                         Sales Report
@@ -84,26 +84,60 @@ const Pricing = () => {
 
                 {/* <!-- Pricing Item --> */}
                 <div className="animate_top group relative w-3/4 rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
-                  <div className="absolute -right-3.5 top-7.5 -rotate-90 rounded-bl-full rounded-tl-full bg-[#C64D27] px-4.5 py-1.5 text-metatitle font-medium uppercase text-white">
-                    popular
-                  </div>
-
                   <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
                     Premium
                   </h3>
                   <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
-                    Start from{" "}
-                  </h4>
-                  <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
-                    Rp 8.000.000{" "}
-                    <span className="text-regular text-waterloo dark:text-manatee">
-                      ,-
-                    </span>
+                    Rp 1.000.000/Month{" "}
                   </h4>
                   <div className="mt-9 border-t border-stroke pb-12.5 pt-9 dark:border-strokedark">
                     <ul>
-                      <li className="mb-4 font-semibold text-black last:mb-0 dark:text-manatee">
-                        Basic Package
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        Transaction / Invoicing Processes
+                      </li>
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        Product, Project, & Client Management
+                      </li>
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        Sales Report
+                      </li>
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        Inventory Report
+                      </li>
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        Human Resources Management
+                      </li>
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        Salary Report
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                {/* <!-- Pricing Item --> */}
+                <div className=" animate_top group relative w-3/4 rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
+                  <div className="absolute -right-3.5 top-7.5 -rotate-90 rounded-bl-full rounded-tl-full bg-[#C64D27] px-4.5 py-1.5 text-metatitle font-medium uppercase text-white">
+                    on sale
+                  </div>
+                  <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
+                    Expert
+                  </h3>
+                  <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
+                    Rp 1.200.000/Month{" "}
+                  </h4>
+                  <div className="mt-9 border-t border-stroke pb-12.5 pt-9 dark:border-strokedark">
+                    <ul>
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        Transaction / Invoicing Processes
+                      </li>
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        Product, Project, & Client Management
+                      </li>
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        Sales Report
+                      </li>
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        Inventory Report
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
                         Human Resources Management
@@ -112,39 +146,10 @@ const Pricing = () => {
                         Salary Report
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Performance Report
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-
-                {/* <!-- Pricing Item --> */}
-                <div className=" animate_top group relative w-3/4 rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
-                  <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                    Expert
-                  </h3>
-                  <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
-                    Start from{" "}
-                  </h4>
-                  <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
-                    Rp 10.000.000{" "}
-                    <span className="text-regular text-waterloo dark:text-manatee">
-                      ,-
-                    </span>
-                  </h4>
-                  <div className="mt-9 border-t border-stroke pb-12.5 pt-9 dark:border-strokedark">
-                    <ul>
-                      <li className="mb-4 font-semibold text-black last:mb-0 dark:text-manatee">
-                        Premium Package
+                        Expenses Record
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Operational Management
-                      </li>
-                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Investment Management
-                      </li>
-                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Finance Report
+                        Complete Finance Report
                       </li>
                     </ul>
                   </div>
@@ -158,21 +163,15 @@ const Pricing = () => {
                     Basic
                   </h3>
                   <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
-                    Mulai dari{" "}
-                  </h4>
-                  <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
-                    Rp 5.000.000{" "}
-                    <span className="text-regular text-waterloo dark:text-manatee">
-                      ,-
-                    </span>
+                    Rp 500.000/Bulan{" "}
                   </h4>
                   <div className="mt-9 border-t border-stroke pb-12.5 pt-9 dark:border-strokedark">
                     <ul>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Proses Transaksi
+                        Proses Transaksi / Invoicing
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Manajemen Produk
+                        Manajemen Produk, Project, dan Klien
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
                         Laporan Penjualan
@@ -186,26 +185,60 @@ const Pricing = () => {
 
                 {/* <!-- Item Harga --> */}
                 <div className="animate_top group relative w-3/4 rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
-                  <div className="absolute -right-3.5 top-7.5 -rotate-90 rounded-bl-full rounded-tl-full bg-[#C64D27] px-4.5 py-1.5 text-metatitle font-medium uppercase text-white">
-                    populer
-                  </div>
-
                   <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
                     Premium
                   </h3>
                   <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
-                    Mulai dari{" "}
-                  </h4>
-                  <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
-                    Rp 8.000.000{" "}
-                    <span className="text-regular text-waterloo dark:text-manatee">
-                      ,-
-                    </span>
+                    Rp 1.000.000/Bulan{" "}
                   </h4>
                   <div className="mt-9 border-t border-stroke pb-12.5 pt-9 dark:border-strokedark">
                     <ul>
-                      <li className="mb-4 font-semibold text-black last:mb-0 dark:text-manatee">
-                        Paket Basic
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        Proses Transaksi / Invoicing
+                      </li>
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        Manajemen Produk, Project, dan Klien
+                      </li>
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        Laporan Penjualan
+                      </li>
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        Laporan Inventaris
+                      </li>
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        Manajemen Sumber Daya Manusia
+                      </li>
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        Laporan Gaji
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                {/* <!-- Item Harga --> */}
+                <div className="animate_top group relative w-3/4 rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
+                  <div className="absolute -right-3.5 top-7.5 -rotate-90 rounded-bl-full rounded-tl-full bg-[#C64D27] px-4.5 py-1.5 text-metatitle font-medium uppercase text-white">
+                    diskon
+                  </div>
+                  <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
+                    Expert
+                  </h3>
+                  <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
+                    Rp 1.200.000/Bulan{" "}
+                  </h4>
+                  <div className="mt-9 border-t border-stroke pb-12.5 pt-9 dark:border-strokedark">
+                    <ul>
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        Proses Transaksi / Invoicing
+                      </li>
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        Manajemen Produk, Project, dan Klien
+                      </li>
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        Laporan Penjualan
+                      </li>
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        Laporan Inventaris
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
                         Manajemen Sumber Daya Manusia
@@ -214,39 +247,10 @@ const Pricing = () => {
                         Laporan Gaji
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Laporan Kinerja
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-
-                {/* <!-- Item Harga --> */}
-                <div className="animate_top group relative w-3/4 rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
-                  <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                    Expert
-                  </h3>
-                  <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
-                    Mulai dari{" "}
-                  </h4>
-                  <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
-                    Rp 10.000.000{" "}
-                    <span className="text-regular text-waterloo dark:text-manatee">
-                      ,-
-                    </span>
-                  </h4>
-                  <div className="mt-9 border-t border-stroke pb-12.5 pt-9 dark:border-strokedark">
-                    <ul>
-                      <li className="mb-4 font-semibold text-black last:mb-0 dark:text-manatee">
-                        Paket Premium
+                        Catatan Pengeluaran
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Manajemen Operasional
-                      </li>
-                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Manajemen Investasi
-                      </li>
-                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Laporan Keuangan
+                        Laporan Keuangan Lengkap
                       </li>
                     </ul>
                   </div>

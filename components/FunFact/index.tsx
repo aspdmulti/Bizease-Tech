@@ -1,12 +1,52 @@
 "use client";
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import Image from "next/image";
-import { motion } from "framer-motion";
+import {
+  motion,
+  useAnimation,
+  useMotionValue,
+  useTransform,
+  animate,
+} from "framer-motion";
 import { useContext } from "react";
 import { LanguageContext } from "@/app/context/LanguageContext";
 
 const FunFact = () => {
-  const { language, setLanguage } = useContext(LanguageContext);
+  const { language } = useContext(LanguageContext);
+  const containerRef = useRef<HTMLDivElement | null>(null);
+  const x = useMotionValue(0);
+  const containerWidth = useRef(0);
+  useEffect(() => {
+    if (containerRef.current) {
+      containerWidth.current = containerRef.current.scrollWidth / 2;
+      animate(x, [-containerWidth.current, 0], {
+        ease: "linear",
+        duration: 30,
+        repeat: Infinity,
+        repeatType: "loop",
+      });
+    }
+  }, [x]);
+
+  const clients = [
+    {
+      src: "/images/shape/a-twin.png",
+      eng: "Cafe & Bistro",
+      id: "Kafe & Bistro",
+    },
+    { src: "/images/shape/beta.png", eng: "Water Supplier", id: "PDAM Swasta" },
+    { src: "/images/shape/karimata.png", eng: "Restaurant", id: "Restoran" },
+    {
+      src: "/images/shape/qisthi.png",
+      eng: "Catering Needs Supplier",
+      id: "Supplier Kebutuhan Katering",
+    },
+    {
+      src: "/images/shape/infinity.png",
+      eng: "Digital Marketing Agency",
+      id: "Digital Marketing Agency",
+    },
+  ];
   return (
     <>
       {/* <!-- ===== Funfact Start ===== --> */}
@@ -71,132 +111,26 @@ const FunFact = () => {
             )}
           </motion.div>
 
-          <div className="grid grid-cols-2 gap-2 xl:grid-cols-4">
+          <div className="relative w-full overflow-hidden">
             <motion.div
-              variants={{
-                hidden: {
-                  opacity: 0,
-                  y: -20,
-                },
-
-                visible: {
-                  opacity: 1,
-                  y: 0,
-                },
-              }}
-              initial="hidden"
-              whileInView="visible"
-              transition={{ duration: 1, delay: 0.5 }}
-              viewport={{ once: true }}
-              className="animate_top text-center"
+              ref={containerRef}
+              style={{ x }}
+              className="flex w-max space-x-8"
             >
-              <Image
-                alt=""
-                width={500}
-                height={500}
-                src="/images/shape/a-twin.png"
-                className="m-auto w-36"
-              />
-              {language == "eng" ? (
-                <p className="text-lg lg:text-para2">Cafe & Bistro</p>
-              ) : (
-                <p className="text-lg lg:text-para2">Kafe & Bistro</p>
-              )}
-            </motion.div>
-            <motion.div
-              variants={{
-                hidden: {
-                  opacity: 0,
-                  y: -20,
-                },
-
-                visible: {
-                  opacity: 1,
-                  y: 0,
-                },
-              }}
-              initial="hidden"
-              whileInView="visible"
-              transition={{ duration: 1, delay: 0.7 }}
-              viewport={{ once: true }}
-              className="animate_top text-center"
-            >
-              <Image
-                alt=""
-                width={500}
-                height={500}
-                src="/images/shape/beta.png"
-                className="m-auto w-36"
-              />
-              {language == "eng" ? (
-                <p className="text-lg lg:text-para2">Water Supplier</p>
-              ) : (
-                <p className="text-lg lg:text-para2">PDAM Swasta</p>
-              )}
-            </motion.div>
-            <motion.div
-              variants={{
-                hidden: {
-                  opacity: 0,
-                  y: -20,
-                },
-
-                visible: {
-                  opacity: 1,
-                  y: 0,
-                },
-              }}
-              initial="hidden"
-              whileInView="visible"
-              transition={{ duration: 1, delay: 0.8 }}
-              viewport={{ once: true }}
-              className="animate_top text-center"
-            >
-              <Image
-                alt=""
-                width={500}
-                height={500}
-                src="/images/shape/karimata.png"
-                className="m-auto w-36"
-              />
-              {language == "eng" ? (
-                <p className="text-lg lg:text-para2">Restaurant</p>
-              ) : (
-                <p className="text-lg lg:text-para2">Restoran</p>
-              )}
-            </motion.div>
-            <motion.div
-              variants={{
-                hidden: {
-                  opacity: 0,
-                  y: -20,
-                },
-
-                visible: {
-                  opacity: 1,
-                  y: 0,
-                },
-              }}
-              initial="hidden"
-              whileInView="visible"
-              transition={{ duration: 1, delay: 0.8 }}
-              viewport={{ once: true }}
-              className="animate_top text-center"
-            >
-              <Image
-                alt=""
-                width={500}
-                height={500}
-                src="/images/shape/qisthi.png"
-                className="m-auto w-36"
-              />
-              {language == "eng" ? (
-                <p className="text-lg lg:text-para2">Catering Needs Supplier</p>
-              ) : (
-                <p className="text-lg lg:text-para2">
-                  Supplier Kebutuhan Katering
-                </p>
-              )}
+              {[...clients, ...clients].map((client, index) => (
+                <div key={index} className="w-48 flex-shrink-0 text-center">
+                  <Image
+                    alt=""
+                    width={500}
+                    height={500}
+                    src={client.src}
+                    className="m-auto w-28 lg:w-32"
+                  />
+                  <p className="text-lg lg:text-para2">
+                    {language === "eng" ? client.eng : client.id}
+                  </p>
+                </div>
+              ))}
             </motion.div>
           </div>
         </div>

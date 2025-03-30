@@ -23,10 +23,11 @@ const Hero = () => {
                   Your All-in-One Software Solution
                 </p>
                 <p>
-                  {`Do you still use paper or have many files on your computer for your business needs? 
-              Do you sometimes feel overwhelmed or confused trying to track down those files? 
-              Do you feel that commercially available software doesn't meet your needs? 
-              We are the solution you've been looking for!`}
+                  {`Are you still relying on paper or scattered files on your
+                  computer for your business needs? Do you often find it
+                  troublesome or confusing to track your documents? Do
+                  commercially available software solutions fail to meet your
+                  specific requirements? We have the perfect solution for you!`}
                 </p>
               </div>
             ) : (
@@ -38,9 +39,10 @@ const Hero = () => {
                   Your All-in-One Software Solution
                 </p>
                 <p>
-                  {`Anda masih memakai kertas atau banyak file di komputer anda untuk kebutuhan bisnis anda ?
-              Anda terkadang repot atau kebingunan menelusuri file-file anda tersebut ?
-              Anda merasa software yang tersedia secara komersil tidak sesuai dengan kebutuhan anda ? Kami adalah jawaban anda !`}
+                  {`Masih mengandalkan kertas atau file yang berserakan di
+                  komputer untuk kebutuhan bisnis Anda? Sering merasa repot atau
+                  bingung saat mencari dokumen? Software komersial yang ada
+                  tidak sesuai dengan kebutuhan Anda? Kami adalah solusinya!`}
                 </p>
               </div>
             )}
