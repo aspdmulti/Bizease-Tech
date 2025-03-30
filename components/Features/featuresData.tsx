@@ -1,7 +1,7 @@
 import { Feature } from "@/types/feature";
 import { GiShoppingCart, GiMoneyStack } from "react-icons/gi";
-import { FaUsers } from "react-icons/fa";
-import { IoMdConstruct, IoMdCloud } from "react-icons/io";
+import { FaUsers, FaUserShield } from "react-icons/fa";
+import { MdAccessTime } from "react-icons/md";
 import { AiFillProduct } from "react-icons/ai";
 
 const featuresData: Feature[] = [
@@ -35,14 +35,14 @@ const featuresData: Feature[] = [
   },
   {
     id: 5,
-    icon: <GiMoneyStack />,
+    icon: <FaUserShield />,
     title: "Role-based Access",
     description:
       "Atur akses pengguna sesuai dengan peran atau jabatan yang telah Anda tentukan.",
   },
   {
     id: 6,
-    icon: <IoMdCloud />,
+    icon: <MdAccessTime />,
     title: "Anytime, Anywhere",
     description:
       "Monitor your business in real-time from any device, anytime, anywhere.",
