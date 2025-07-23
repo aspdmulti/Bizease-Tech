@@ -38,7 +38,7 @@ const Header = () => {
       }`}
     >
       <div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
-        <div className="flex w-full items-center justify-between">
+        <div className="flex items-center justify-between lg:w-1/6">
           <a href="/">
             <img
               src="/images/logo/logo.png"
@@ -101,7 +101,7 @@ const Header = () => {
           }`}
         >
           <nav>
-            <ul className="flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-10">
+            <ul className="flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-6">
               {language == "eng"
                 ? menuData.map((menuItem, key) => (
                     <li

@@ -11,38 +11,27 @@ const Hero = () => {
 
   return (
     <>
-      <section id="home" className="overflow-hidden pt-20 md:pt-20 xl:pt-20">
-        <div className="min-h-screen bg-[url('/images/hero/hero.png')] bg-cover bg-[position:60%] bg-no-repeat text-white lg:bg-center">
-          <div className="flex min-h-screen items-center from-black from-20% to-70% lg:bg-gradient-to-r lg:px-11">
+      <section id="home" className="overflow-hidden">
+        <div className="min-h-screen bg-[url('/images/hero/hero.png')] bg-cover bg-[position:60%] bg-no-repeat text-black lg:bg-center">
+          <div className="flex min-h-screen text-center lg:px-11 lg:pt-10  lg:text-left">
             {language == "eng" ? (
-              <div className="indo:hidden mx-4 flex-col rounded bg-black bg-opacity-90 p-3 lg:mx-0 lg:w-2/5 lg:bg-transparent lg:text-left">
-                <p className=" my-3 text-2xl font-bold text-[#C64D27]">
+              <div className="indo:hidden mx-4 flex-col rounded bg-opacity-90 p-3 lg:mx-0 lg:pr-50  lg:text-left">
+                <p className="mb-3 mt-19 text-2xl font-bold text-[#C64D27] lg:mb-5 lg:text-5xl">
                   Bizease Tech
                 </p>
-                <p className=" my-1 text-xl font-bold text-[#C64D27]">
-                  Your All-in-One Software Solution
-                </p>
-                <p>
-                  {`Are you still relying on paper or scattered files on your
-                  computer for your business needs? Do you often find it
-                  troublesome or confusing to track your documents? Do
-                  commercially available software solutions fail to meet your
-                  specific requirements? We have the perfect solution for you!`}
+                <p className="my-1 text-xl font-bold text-black lg:text-2xl">
+                  The right solution for your business digitalization, from
+                  website, operational application, to finance application.
                 </p>
               </div>
             ) : (
-              <div className="mx-4 flex-col rounded bg-black bg-opacity-90 p-3 lg:mx-0 lg:w-2/5 lg:bg-transparent lg:text-left">
-                <p className=" my-3 text-2xl font-bold text-[#C64D27]">
+              <div className="mx-4 flex-col rounded bg-opacity-90 p-3 lg:mx-0 lg:pr-50  lg:text-left">
+                <p className="mb-3 mt-19 text-2xl font-bold text-[#C64D27] lg:mb-5 lg:text-5xl">
                   Bizease Tech
                 </p>
-                <p className=" my-1 text-xl font-bold text-[#C64D27]">
-                  Your All-in-One Software Solution
-                </p>
-                <p>
-                  {`Masih mengandalkan kertas atau file yang berserakan di
-                  komputer untuk kebutuhan bisnis Anda? Sering merasa repot atau
-                  bingung saat mencari dokumen? Software komersial yang ada
-                  tidak sesuai dengan kebutuhan Anda? Kami adalah solusinya!`}
+                <p className="my-1 text-xl font-bold text-black lg:text-2xl">
+                  Solusi tepat digitalisasi bisnis Anda, mulai dari website,
+                  aplikasi operasional, hingga aplikasi keuangan.
                 </p>
               </div>
             )}
