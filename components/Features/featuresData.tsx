@@ -1,51 +1,86 @@
 import { Feature } from "@/types/feature";
 import { GiShoppingCart, GiMoneyStack } from "react-icons/gi";
 import { FaUsers, FaUserShield } from "react-icons/fa";
-import { MdAccessTime } from "react-icons/md";
-import { AiFillProduct } from "react-icons/ai";
+import { IoMdConstruct, IoMdCloud } from "react-icons/io";
 
 const featuresData: Feature[] = [
   {
     id: 1,
-    icon: <GiShoppingCart />,
-    title: "Transaction / Invoicing",
+    icon: <IoMdCloud />,
+    bgColor: "bg-blue-600",
+    title: "Bizease Website",
     description:
-      "Handle all transaction processes from item input, invoice creation, transaction tracker, sales report, and inventory report.",
+      "A professional website for your company branding and information.",
+    suitability: (
+      <span>
+        <b>Best for:</b> All types of businesses
+      </span>
+    ),
   },
   {
     id: 2,
-    icon: <AiFillProduct />,
-    title: "Product, Project, & Client Management",
+    icon: <GiShoppingCart />,
+    bgColor: "bg-yellow-600",
+    title: "Bizease POS",
     description:
-      "Manage all your product, project, and client information effortlessly.",
+      "Modern POS system for efficient and accurate sales transactions.",
+    suitability: (
+      <span>
+        <b>Best for:</b> Restaurants, Retail, Distributors
+      </span>
+    ),
   },
   {
     id: 3,
     icon: <FaUsers />,
-    title: "HRD Management",
+    bgColor: "bg-green-600",
+    title: "Bizease ClientHub",
     description:
-      "Manage your employees starting from salaries, positions, bonus criteria, loans, insurance costs, and more.",
+      "Centralized and accessible client and customer data management.",
+    suitability: (
+      <span>
+        <b>Best for:</b> Consultants, Marketing agencies, Branding agencies
+      </span>
+    ),
   },
   {
     id: 4,
-    icon: <GiMoneyStack />,
-    title: "Expenses Record",
+    icon: <IoMdConstruct />,
+    bgColor: "bg-purple-600",
+    title: "Bizease Project",
     description:
-      "Record all expenses, from fixed costs and investments to marketing budgets and more, for better decision-making.",
+      "Structured and real-time monitoring and management of your business projects.",
+    suitability: (
+      <span>
+        <b>Best for:</b> Event planners, Maintenance services, Developers
+      </span>
+    ),
   },
   {
     id: 5,
     icon: <FaUserShield />,
-    title: "Role-based Access",
+    bgColor: "bg-red-600",
+    title: "Bizease HRD",
     description:
-      "Atur akses pengguna sesuai dengan peran atau jabatan yang telah Anda tentukan.",
+      "Integrated and secure HR management, attendance, and payroll.",
+    suitability: (
+      <span>
+        <b>Best for:</b> All types of businesses
+      </span>
+    ),
   },
   {
     id: 6,
-    icon: <MdAccessTime />,
-    title: "Anytime, Anywhere",
+    icon: <GiMoneyStack />,
+    bgColor: "bg-teal-600",
+    title: "Bizease Finance",
     description:
-      "Monitor your business in real-time from any device, anytime, anywhere.",
+      "Automated financial reports and real-time business cashflow monitoring.",
+    suitability: (
+      <span>
+        <b>Best for:</b> All types of businesses
+      </span>
+    ),
   },
 ];
 

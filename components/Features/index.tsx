@@ -19,9 +19,9 @@ const Feature = () => {
             <>
               <SectionHeader
                 headerInfo={{
-                  title: "BIZEASE TECH FEATURES",
+                  title: "BIZEASE TECH SERVICES",
                   subtitle: "Step Up Your Business",
-                  description: `Digitize your business with our software so you no longer need to store many files and documents. Access everything with just one application.`,
+                  description: `Digitize your business so it can keep up with the digital age and become more efficient.`,
                 }}
               />
               {/* <!-- Section Title End --> */}
@@ -39,9 +39,9 @@ const Feature = () => {
             <>
               <SectionHeader
                 headerInfo={{
-                  title: "FITUR BIZEASE TECH",
+                  title: "JASA BIZEASE TECH",
                   subtitle: "Digitalisasikan Bisnis Anda",
-                  description: `Digitalisasikan bisnis Anda dengan perangkat lunak kami sehingga Anda tidak perlu lagi menyimpan banyak berkas dan dokumen. Akses semuanya hanya dengan satu aplikasi.`,
+                  description: `Digitalisasikan bisnis Anda agar bisnis Anda dapat mengikuti perkembangan zaman digital dan lebih efisien.`,
                 }}
               />
               {/* <!-- Section Title End --> */}

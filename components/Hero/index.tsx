@@ -21,7 +21,8 @@ const Hero = () => {
                 </p>
                 <p className="my-1 text-xl font-bold text-black lg:text-2xl">
                   The right solution for your business digitalization, from
-                  website, operational application, to finance application.
+                  website, operational application, human resources application,
+                  to finance application.
                 </p>
               </div>
             ) : (
@@ -31,7 +32,8 @@ const Hero = () => {
                 </p>
                 <p className="my-1 text-xl font-bold text-black lg:text-2xl">
                   Solusi tepat digitalisasi bisnis Anda, mulai dari website,
-                  aplikasi operasional, hingga aplikasi keuangan.
+                  aplikasi operasional, aplikasi sumber daya manusia, hingga
+                  aplikasi keuangan.
                 </p>
               </div>
             )}
