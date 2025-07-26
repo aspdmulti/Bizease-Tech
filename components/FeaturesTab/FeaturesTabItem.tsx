@@ -47,11 +47,11 @@ const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
             height={500}
           />
           {language == "eng" ? (
-            <p className="flex h-20 items-center rounded-b bg-gray-200 text-lg text-black lg:text-xl">
+            <p className="flex h-20 items-center rounded-b bg-gray-200 p-2 text-lg text-black lg:text-xl">
               {desc1}
             </p>
           ) : (
-            <p className="flex h-20 items-center rounded-b bg-gray-200 text-lg text-black lg:text-xl">
+            <p className="flex h-20 items-center rounded-b bg-gray-200 p-2 text-lg text-black lg:text-xl">
               {desc1ind}
             </p>
           )}
@@ -82,11 +82,11 @@ const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
             height={500}
           />
           {language == "eng" ? (
-            <p className="flex h-20 items-center rounded-b bg-gray-200 text-lg text-black lg:text-xl">
+            <p className="flex h-20 items-center rounded-b bg-gray-200 p-2 text-lg text-black lg:text-xl">
               {desc2}
             </p>
           ) : (
-            <p className="flex h-20 items-center rounded-b bg-gray-200 text-lg text-black lg:text-xl">
+            <p className="flex h-20 items-center rounded-b bg-gray-200 p-2 text-lg text-black lg:text-xl">
               {desc2ind}
             </p>
           )}
@@ -117,11 +117,11 @@ const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
             height={500}
           />
           {language == "eng" ? (
-            <p className="flex h-20 items-center rounded-b bg-gray-200 text-lg text-black lg:text-xl">
+            <p className="flex h-20 items-center rounded-b bg-gray-200 p-2 text-lg text-black lg:text-xl">
               {desc3}
             </p>
           ) : (
-            <p className="flex h-20 items-center rounded-b bg-gray-200 text-lg text-black lg:text-xl">
+            <p className="flex h-20 items-center rounded-b bg-gray-200 p-2 text-lg text-black lg:text-xl">
               {desc3ind}
             </p>
           )}

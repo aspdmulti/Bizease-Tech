@@ -4,6 +4,9 @@ import SectionHeader from "../Common/SectionHeader";
 import { useContext } from "react";
 import { LanguageContext } from "@/app/context/LanguageContext";
 import { FaWhatsapp } from "react-icons/fa";
+import { GiShoppingCart, GiMoneyStack } from "react-icons/gi";
+import { FaUsers, FaUserShield } from "react-icons/fa";
+import { IoMdConstruct, IoMdCloud } from "react-icons/io";
 
 const Pricing = () => {
   const { language, setLanguage } = useContext(LanguageContext);
@@ -47,109 +50,161 @@ const Pricing = () => {
               className="dark:hidden"
             />
           </div>
-          <div className="flex flex-wrap justify-center gap-7.5 lg:flex-nowrap xl:gap-12.5">
+          {/* Changed from flex to grid */}
+          <div className="grid grid-cols-1 justify-center gap-4 lg:grid-cols-2 xl:grid-cols-3 xl:gap-6">
             {language == "eng" ? (
               <>
                 {/* <!-- Pricing Item --> */}
-                <div className="animate_top group relative w-3/4 rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
-                  <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                    Basic
+                <div className="animate_top group relative mx-auto w-full rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
+                  <h3 className="mb-4 flex items-center justify-between text-3xl font-bold text-black dark:text-white xl:text-3xl">
+                    Bizease Website
+                    <IoMdCloud className="ml-2 text-blue-600" />
                   </h3>
-                  {/* <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
-                    Start from{" "}
-                  </h4> */}
-                  <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
-                    Rp 500.000/Month{" "}
-                    {/* <span className="text-regular text-waterloo dark:text-manatee">
-                      ,-
-                    </span> */}
+                  <h4 className="mb-2 text-para2 font-medium text-black dark:text-white">
+                    Start from IDR 100,000/Month
                   </h4>
-                  <div className="mt-9 border-t border-stroke pb-12.5 pt-9 dark:border-strokedark">
+                  <div className="mt-5 border-t border-stroke pb-6 pt-5 dark:border-strokedark">
                     <ul>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Transaction / Invoicing Processes
+                        • Professional website
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Product, Project, & Client Management
+                        • Responsive design
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Sales Report
+                        • Company information
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Inventory Report
+                        • Product and service catalog
                       </li>
                     </ul>
                   </div>
                 </div>
 
                 {/* <!-- Pricing Item --> */}
-                <div className="animate_top group relative w-3/4 rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
-                  <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                    Premium
+                <div className="animate_top group relative mx-auto w-full rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
+                  <h3 className="mb-4 flex items-center justify-between text-3xl font-bold text-black dark:text-white xl:text-3xl">
+                    Bizease POS
+                    <GiShoppingCart className="ml-2 text-yellow-600" />
                   </h3>
-                  <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
-                    Rp 1.000.000/Month{" "}
+                  <h4 className="mb-2 text-para2 font-medium text-black dark:text-white">
+                    Start from IDR 300,000/Month
                   </h4>
-                  <div className="mt-9 border-t border-stroke pb-12.5 pt-9 dark:border-strokedark">
+                  <div className="mt-5 border-t border-stroke pb-6 pt-5 dark:border-strokedark">
                     <ul>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Transaction / Invoicing Processes
+                        • Cashier application
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Product, Project, & Client Management
+                        • Product management (price, stock, category)
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Sales Report
+                        • Sales report
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Inventory Report
-                      </li>
-                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Human Resources Management
-                      </li>
-                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Salary Report
+                        • Inventory report
                       </li>
                     </ul>
                   </div>
                 </div>
 
                 {/* <!-- Pricing Item --> */}
-                <div className=" animate_top group relative w-3/4 rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
-                  <div className="absolute -right-3.5 top-7.5 -rotate-90 rounded-bl-full rounded-tl-full bg-[#C64D27] px-4.5 py-1.5 text-metatitle font-medium uppercase text-white">
-                    on sale
-                  </div>
-                  <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                    Expert
+                <div className="animate_top group relative mx-auto w-full rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
+                  <h3 className="mb-4 flex items-center justify-between text-3xl font-bold text-black dark:text-white xl:text-3xl">
+                    Bizease ClientHub
+                    <FaUsers className="ml-2 text-green-600" />
                   </h3>
-                  <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
-                    Rp 1.200.000/Month{" "}
+                  <h4 className="mb-2 text-para2 font-medium text-black dark:text-white">
+                    Start from IDR 350,000/Month
                   </h4>
-                  <div className="mt-9 border-t border-stroke pb-12.5 pt-9 dark:border-strokedark">
+                  <div className="mt-5 border-t border-stroke pb-6 pt-5 dark:border-strokedark">
                     <ul>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Transaction / Invoicing Processes
+                        • Automated transaction and invoicing process
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Product, Project, & Client Management
+                        • Client management (data, contact, fee)
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Sales Report
+                        • Lead and client report
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Inventory Report
+                        • Revenue report
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                {/* <!-- Pricing Item --> */}
+                <div className="animate_top group relative mx-auto w-full rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
+                  <h3 className="mb-4 flex items-center justify-between text-3xl font-bold text-black dark:text-white xl:text-3xl">
+                    Bizease Project
+                    <IoMdConstruct className="ml-2 text-purple-600" />
+                  </h3>
+                  <h4 className="mb-2 text-para2 font-medium text-black dark:text-white">
+                    Start from IDR 350,000/Month
+                  </h4>
+                  <div className="mt-5 border-t border-stroke pb-6 pt-5 dark:border-strokedark">
+                    <ul>
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        • Automated transaction and invoicing process
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Human Resources Management
+                        • Project management (data, timeline, fee, installment)
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Salary Report
+                        • Lead and project report
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Expenses Record
+                        • Revenue report
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                {/* <!-- Pricing Item --> */}
+                <div className="animate_top group relative mx-auto w-full rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
+                  <h3 className="mb-4 flex items-center justify-between text-3xl font-bold text-black dark:text-white xl:text-3xl">
+                    Bizease HRD
+                    <FaUserShield className="ml-2 text-red-600" />
+                  </h3>
+                  <h4 className="mb-2 text-para2 font-medium text-black dark:text-white">
+                    Start from IDR 250,000/Month
+                  </h4>
+                  <div className="mt-5 border-t border-stroke pb-6 pt-5 dark:border-strokedark">
+                    <ul>
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        • Employee management (data, contact, salary)
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Complete Finance Report
+                        • Attendance and overtime management
+                      </li>
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        • Cash advance and leave requests
+                      </li>
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        • Salary and attendance report
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                {/* <!-- Pricing Item --> */}
+                <div className="animate_top group relative mx-auto w-full rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
+                  <h3 className="mb-4 flex items-center justify-between text-3xl font-bold text-black dark:text-white xl:text-3xl">
+                    Bizease Finance
+                    <GiMoneyStack className="ml-2 text-teal-600" />
+                  </h3>
+                  <h4 className="mb-2 text-para2 font-medium text-black dark:text-white">
+                    Start from IDR 250,000/Month
+                  </h4>
+                  <div className="mt-5 border-t border-stroke pb-6 pt-5 dark:border-strokedark">
+                    <ul>
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        • Expense recording by category
+                      </li>
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        • Expense report
                       </li>
                     </ul>
                   </div>
@@ -158,99 +213,159 @@ const Pricing = () => {
             ) : (
               <>
                 {/* <!-- Item Harga --> */}
-                <div className="animate_top group relative w-3/4 rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
-                  <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                    Basic
+                <div className="animate_top group relative mx-auto w-full rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
+                  <h3 className="mb-4 flex items-center justify-between text-3xl font-bold text-black dark:text-white xl:text-3xl">
+                    Bizease Website
+                    <IoMdCloud className="ml-2 text-blue-600" />
                   </h3>
-                  <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
-                    Rp 500.000/Bulan{" "}
+                  <h4 className="mb-2 text-para2 font-medium text-black dark:text-white">
+                    Mulai dari IDR 100.000/Bulan{" "}
                   </h4>
-                  <div className="mt-9 border-t border-stroke pb-12.5 pt-9 dark:border-strokedark">
+                  <div className="mt-5 border-t border-stroke pb-6 pt-5 dark:border-strokedark">
                     <ul>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Proses Transaksi / Invoicing
+                        • Website profesional
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Manajemen Produk, Project, dan Klien
+                        • Tampilan responsif
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Laporan Penjualan
+                        • Informasi perusahaan
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Laporan Inventaris
+                        • Katalog produk dan layanan
                       </li>
                     </ul>
                   </div>
                 </div>
 
                 {/* <!-- Item Harga --> */}
-                <div className="animate_top group relative w-3/4 rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
-                  <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                    Premium
+                <div className="animate_top group relative mx-auto w-full rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
+                  <h3 className="mb-4 flex items-center justify-between text-3xl font-bold text-black dark:text-white xl:text-3xl">
+                    Bizease POS
+                    <GiShoppingCart className="ml-2 text-yellow-600" />
                   </h3>
-                  <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
-                    Rp 1.000.000/Bulan{" "}
+                  <h4 className="mb-2 text-para2 font-medium text-black dark:text-white">
+                    Mulai dari IDR 300.000/Bulan{" "}
                   </h4>
-                  <div className="mt-9 border-t border-stroke pb-12.5 pt-9 dark:border-strokedark">
+                  <div className="mt-5 border-t border-stroke pb-6 pt-5 dark:border-strokedark">
                     <ul>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Proses Transaksi / Invoicing
+                        • Aplikasi kasir
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Manajemen Produk, Project, dan Klien
+                        • Manajemen produk (harga, stok, kategori)
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Laporan Penjualan
+                        • Laporan Penjualan
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Laporan Inventaris
-                      </li>
-                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Manajemen Sumber Daya Manusia
-                      </li>
-                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Laporan Gaji
+                        • Laporan Inventaris
                       </li>
                     </ul>
                   </div>
                 </div>
 
                 {/* <!-- Item Harga --> */}
-                <div className="animate_top group relative w-3/4 rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
-                  <div className="absolute -right-3.5 top-7.5 -rotate-90 rounded-bl-full rounded-tl-full bg-[#C64D27] px-4.5 py-1.5 text-metatitle font-medium uppercase text-white">
-                    diskon
-                  </div>
-                  <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                    Expert
+                <div className="animate_top group relative mx-auto w-full rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
+                  {/* <div className="absolute -right-3.5 top-7.5 -rotate-90 rounded-bl-full rounded-tl-full bg-[#C64D27] px-4.5 py-1.5 text-metatitle font-medium uppercase text-white">
+                    terlaris
+                  </div> */}
+                  <h3 className="mb-4 flex items-center justify-between text-3xl font-bold text-black dark:text-white xl:text-3xl">
+                    Bizease ClientHub
+                    <FaUsers className="ml-2 text-green-600" />
                   </h3>
-                  <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
-                    Rp 1.200.000/Bulan{" "}
+                  <h4 className="mb-2 text-para2 font-medium text-black dark:text-white">
+                    Mulai dari IDR 350.000/Bulan{" "}
                   </h4>
-                  <div className="mt-9 border-t border-stroke pb-12.5 pt-9 dark:border-strokedark">
+                  <div className="mt-5 border-t border-stroke pb-6 pt-5 dark:border-strokedark">
                     <ul>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Proses Transaksi / Invoicing
+                        • Proses transaksi dan invoicing otomatis
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Manajemen Produk, Project, dan Klien
+                        • Manajemen klien (data, kontak, fee)
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Laporan Penjualan
+                        • Laporan lead dan klien
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Laporan Inventaris
+                        • Laporan omzet
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                {/* <!-- Item Harga --> */}
+                <div className="animate_top group relative mx-auto w-full rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
+                  <h3 className="mb-4 flex items-center justify-between text-3xl font-bold text-black dark:text-white xl:text-3xl">
+                    Bizease Project
+                    <IoMdConstruct className="ml-2 text-purple-600" />
+                  </h3>
+                  <h4 className="mb-2 text-para2 font-medium text-black dark:text-white">
+                    Mulai dari IDR 350.000/Bulan{" "}
+                  </h4>
+                  <div className="mt-5 border-t border-stroke pb-6 pt-5 dark:border-strokedark">
+                    <ul>
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        • Proses transaksi dan invoicing otomatis
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Manajemen Sumber Daya Manusia
+                        • Manajemen projek (data, timeline, fee, cicilan)
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Laporan Gaji
+                        • Laporan lead dan projek
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Catatan Pengeluaran
+                        • Laporan omzet
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                {/* <!-- Item Harga --> */}
+                <div className="animate_top group relative mx-auto w-full rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
+                  <h3 className="mb-4 flex items-center justify-between text-3xl font-bold text-black dark:text-white xl:text-3xl">
+                    Bizease HRD
+                    <FaUserShield className="ml-2 text-red-600" />
+                  </h3>
+                  <h4 className="mb-2 text-para2 font-medium text-black dark:text-white">
+                    Mulai dari IDR 250.000/Bulan{" "}
+                  </h4>
+                  <div className="mt-5 border-t border-stroke pb-6 pt-5 dark:border-strokedark">
+                    <ul>
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        • Manajemen karyawan (data, kontak, gaji)
                       </li>
                       <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                        Laporan Keuangan Lengkap
+                        • Absensi dan lembur karyawan
+                      </li>
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        • Kasbon dan pengajuan cuti
+                      </li>
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        • Laporan gaji dan absensi
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                {/* <!-- Item Harga --> */}
+                <div className="animate_top group relative mx-auto w-full rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
+                  <h3 className="mb-4 flex items-center justify-between text-3xl font-bold text-black dark:text-white xl:text-3xl">
+                    Bizease Finance
+                    <GiMoneyStack className="ml-2 text-teal-600" />
+                  </h3>
+                  <h4 className="mb-2 text-para2 font-medium text-black dark:text-white">
+                    Mulai dari IDR 250.000/Bulan{" "}
+                  </h4>
+                  <div className="mt-5 border-t border-stroke pb-6 pt-5 dark:border-strokedark">
+                    <ul>
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        • Pencatatan pengeluaran berdasarkan kategori
+                      </li>
+                      <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                        • Laporan pengeluaran
                       </li>
                     </ul>
                   </div>

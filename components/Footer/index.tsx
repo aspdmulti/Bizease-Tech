@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { FaWhatsapp, FaEnvelope } from "react-icons/fa";
+import { FaWhatsapp, FaEnvelope, FaInstagram } from "react-icons/fa";
 import { useContext } from "react";
 import { LanguageContext } from "@/app/context/LanguageContext";
 
@@ -206,6 +206,16 @@ const Footer = () => {
                       >
                         <FaEnvelope />
                         bizeasetech@gmail.com
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.instagram.com/bizeasetech/"
+                        target="_blank"
+                        className="mb-3 flex items-center gap-2 hover:text-primary"
+                      >
+                        <FaInstagram />
+                        @bizeasetech
                       </a>
                     </li>
                   </ul>

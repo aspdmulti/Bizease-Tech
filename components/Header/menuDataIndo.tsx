@@ -9,7 +9,7 @@ const menuDataIndo: Menu[] = [
   },
   {
     id: 2,
-    title: "Fitur",
+    title: "Jasa Kami",
     newTab: false,
     path: "/#features",
   },

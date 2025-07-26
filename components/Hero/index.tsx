@@ -16,10 +16,10 @@ const Hero = () => {
           <div className="flex min-h-screen text-center lg:px-11 lg:pt-10  lg:text-left">
             {language == "eng" ? (
               <div className="indo:hidden mx-4 flex-col rounded bg-opacity-90 p-3 lg:mx-0 lg:pr-50  lg:text-left">
-                <p className="mb-3 mt-19 text-2xl font-bold text-[#C64D27] lg:mb-5 lg:text-5xl">
+                <p className="mb-3 mt-19 text-3xl font-bold text-[#C64D27] lg:mb-5 lg:text-5xl">
                   Bizease Tech
                 </p>
-                <p className="my-1 text-xl font-bold text-black lg:text-2xl">
+                <p className="my-1 text-lg font-bold text-black lg:text-2xl">
                   The right solution for your business digitalization, from
                   website, operational application, human resources application,
                   to finance application.
@@ -27,14 +27,22 @@ const Hero = () => {
               </div>
             ) : (
               <div className="mx-4 flex-col rounded bg-opacity-90 p-3 lg:mx-0 lg:pr-50  lg:text-left">
-                <p className="mb-3 mt-19 text-2xl font-bold text-[#C64D27] lg:mb-5 lg:text-5xl">
+                <p className="mb-3 mt-19 text-3xl font-bold text-[#C64D27] lg:mb-5 lg:text-5xl">
                   Bizease Tech
                 </p>
-                <p className="my-1 text-xl font-bold text-black lg:text-2xl">
+                <p className="my-1 mb-5 text-lg font-bold text-black lg:text-2xl">
                   Solusi tepat digitalisasi bisnis Anda, mulai dari website,
                   aplikasi operasional, aplikasi sumber daya manusia, hingga
                   aplikasi keuangan.
                 </p>
+                <a
+                  href="https://wa.me/6285711899575"
+                  target="_blank"
+                  aria-label="WhatsApp"
+                  className=" rounded bg-[#C64D27] px-4 py-2 text-white"
+                >
+                  Konsultasi Sekarang
+                </a>
               </div>
             )}
           </div>

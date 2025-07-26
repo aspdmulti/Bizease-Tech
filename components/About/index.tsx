@@ -301,7 +301,7 @@ const About = () => {
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_right relative mx-auto block aspect-[588/450] w-full rounded bg-gradient-to-t from-white to-[#F9E5D7] md:w-1/2"
+              className="animate_right relative mx-auto block aspect-[588/588] w-full rounded bg-gradient-to-t from-white to-[#F9E5D7] md:w-1/2"
             >
               <Image
                 src="/images/about/about-light-02.png"

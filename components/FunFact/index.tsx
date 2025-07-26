@@ -46,6 +46,16 @@ const FunFact = () => {
       eng: "Digital Marketing Agency",
       id: "Digital Marketing Agency",
     },
+    {
+      src: "/images/shape/dewata.png",
+      eng: "Travel & Tour",
+      id: "Travel & Tour",
+    },
+    {
+      src: "/images/shape/savorindo.png",
+      eng: "Catering Service",
+      id: "Catering Service",
+    },
   ];
   return (
     <>
@@ -126,7 +136,7 @@ const FunFact = () => {
                     src={client.src}
                     className="m-auto w-28 lg:w-32"
                   />
-                  <p className="text-lg lg:text-para2">
+                  <p className="text-md lg:text-lg">
                     {language === "eng" ? client.eng : client.id}
                   </p>
                 </div>
