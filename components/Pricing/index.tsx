@@ -55,7 +55,7 @@ const Pricing = () => {
             {language == "eng" ? (
               <>
                 {/* <!-- Pricing Item --> */}
-                <div className="animate_top group relative mx-auto w-full rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
+                <div className="animate_top group relative mx-auto flex w-full flex-col rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
                   <h3 className="mb-4 flex items-center justify-between text-3xl font-bold text-black dark:text-white xl:text-3xl">
                     Bizease Website
                     <IoMdCloud className="ml-2 text-blue-600" />
@@ -79,10 +79,20 @@ const Pricing = () => {
                       </li>
                     </ul>
                   </div>
+                  <div className="mx-auto mt-auto flex w-full justify-center">
+                    <a
+                      href="https://wa.me/6285711899575"
+                      target="_blank"
+                      className="flex items-center rounded-md bg-primary px-2 py-1 text-center text-white transition duration-300 hover:bg-opacity-90"
+                    >
+                      <FaWhatsapp className="mr-2" />
+                      {language == "eng" ? "Contact Us" : "Hubungi Kami"}
+                    </a>
+                  </div>
                 </div>
 
                 {/* <!-- Pricing Item --> */}
-                <div className="animate_top group relative mx-auto w-full rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
+                <div className="animate_top group relative mx-auto flex w-full flex-col rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
                   <h3 className="mb-4 flex items-center justify-between text-3xl font-bold text-black dark:text-white xl:text-3xl">
                     Bizease POS
                     <GiShoppingCart className="ml-2 text-yellow-600" />
@@ -106,10 +116,20 @@ const Pricing = () => {
                       </li>
                     </ul>
                   </div>
+                  <div className="mx-auto mt-auto flex w-full justify-center">
+                    <a
+                      href="https://wa.me/6285711899575"
+                      target="_blank"
+                      className="flex items-center rounded-md bg-primary px-2 py-1 text-center text-white transition duration-300 hover:bg-opacity-90"
+                    >
+                      <FaWhatsapp className="mr-2" />
+                      {language == "eng" ? "Contact Us" : "Hubungi Kami"}
+                    </a>
+                  </div>
                 </div>
 
                 {/* <!-- Pricing Item --> */}
-                <div className="animate_top group relative mx-auto w-full rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
+                <div className="animate_top group relative mx-auto flex w-full flex-col rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
                   <h3 className="mb-4 flex items-center justify-between text-3xl font-bold text-black dark:text-white xl:text-3xl">
                     Bizease ClientHub
                     <FaUsers className="ml-2 text-green-600" />
@@ -133,10 +153,20 @@ const Pricing = () => {
                       </li>
                     </ul>
                   </div>
+                  <div className="mx-auto mt-auto flex w-full justify-center">
+                    <a
+                      href="https://wa.me/6285711899575"
+                      target="_blank"
+                      className="flex items-center rounded-md bg-primary px-2 py-1 text-center text-white transition duration-300 hover:bg-opacity-90"
+                    >
+                      <FaWhatsapp className="mr-2" />
+                      {language == "eng" ? "Contact Us" : "Hubungi Kami"}
+                    </a>
+                  </div>
                 </div>
 
                 {/* <!-- Pricing Item --> */}
-                <div className="animate_top group relative mx-auto w-full rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
+                <div className="animate_top group relative mx-auto flex w-full flex-col rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
                   <h3 className="mb-4 flex items-center justify-between text-3xl font-bold text-black dark:text-white xl:text-3xl">
                     Bizease Project
                     <IoMdConstruct className="ml-2 text-purple-600" />
@@ -160,10 +190,20 @@ const Pricing = () => {
                       </li>
                     </ul>
                   </div>
+                  <div className="mx-auto mt-auto flex w-full justify-center">
+                    <a
+                      href="https://wa.me/6285711899575"
+                      target="_blank"
+                      className="flex items-center rounded-md bg-primary px-2 py-1 text-center text-white transition duration-300 hover:bg-opacity-90"
+                    >
+                      <FaWhatsapp className="mr-2" />
+                      {language == "eng" ? "Contact Us" : "Hubungi Kami"}
+                    </a>
+                  </div>
                 </div>
 
                 {/* <!-- Pricing Item --> */}
-                <div className="animate_top group relative mx-auto w-full rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
+                <div className="animate_top group relative mx-auto flex w-full flex-col rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
                   <h3 className="mb-4 flex items-center justify-between text-3xl font-bold text-black dark:text-white xl:text-3xl">
                     Bizease HRD
                     <FaUserShield className="ml-2 text-red-600" />
@@ -187,10 +227,20 @@ const Pricing = () => {
                       </li>
                     </ul>
                   </div>
+                  <div className="mx-auto mt-auto flex w-full justify-center">
+                    <a
+                      href="https://wa.me/6285711899575"
+                      target="_blank"
+                      className="flex items-center rounded-md bg-primary px-2 py-1 text-center text-white transition duration-300 hover:bg-opacity-90"
+                    >
+                      <FaWhatsapp className="mr-2" />
+                      {language == "eng" ? "Contact Us" : "Hubungi Kami"}
+                    </a>
+                  </div>
                 </div>
 
                 {/* <!-- Pricing Item --> */}
-                <div className="animate_top group relative mx-auto w-full rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
+                <div className="animate_top group relative mx-auto flex w-full flex-col rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
                   <h3 className="mb-4 flex items-center justify-between text-3xl font-bold text-black dark:text-white xl:text-3xl">
                     Bizease Finance
                     <GiMoneyStack className="ml-2 text-teal-600" />
@@ -208,12 +258,22 @@ const Pricing = () => {
                       </li>
                     </ul>
                   </div>
+                  <div className="mx-auto mt-auto flex w-full justify-center">
+                    <a
+                      href="https://wa.me/6285711899575"
+                      target="_blank"
+                      className="flex items-center rounded-md bg-primary px-2 py-1 text-center text-white transition duration-300 hover:bg-opacity-90"
+                    >
+                      <FaWhatsapp className="mr-2" />
+                      {language == "eng" ? "Contact Us" : "Hubungi Kami"}
+                    </a>
+                  </div>
                 </div>
               </>
             ) : (
               <>
                 {/* <!-- Item Harga --> */}
-                <div className="animate_top group relative mx-auto w-full rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
+                <div className="animate_top group relative mx-auto flex w-full flex-col rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
                   <h3 className="mb-4 flex items-center justify-between text-3xl font-bold text-black dark:text-white xl:text-3xl">
                     Bizease Website
                     <IoMdCloud className="ml-2 text-blue-600" />
@@ -237,10 +297,20 @@ const Pricing = () => {
                       </li>
                     </ul>
                   </div>
+                  <div className="mx-auto mt-auto flex w-full justify-center">
+                    <a
+                      href="https://wa.me/6285711899575"
+                      target="_blank"
+                      className="flex items-center rounded-md bg-primary px-2 py-1 text-center text-white transition duration-300 hover:bg-opacity-90"
+                    >
+                      <FaWhatsapp className="mr-2" />
+                      {language == "eng" ? "Contact Us" : "Hubungi Kami"}
+                    </a>
+                  </div>
                 </div>
 
                 {/* <!-- Item Harga --> */}
-                <div className="animate_top group relative mx-auto w-full rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
+                <div className="animate_top group relative mx-auto flex w-full flex-col rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
                   <h3 className="mb-4 flex items-center justify-between text-3xl font-bold text-black dark:text-white xl:text-3xl">
                     Bizease POS
                     <GiShoppingCart className="ml-2 text-yellow-600" />
@@ -264,10 +334,20 @@ const Pricing = () => {
                       </li>
                     </ul>
                   </div>
+                  <div className="mx-auto mt-auto flex w-full justify-center">
+                    <a
+                      href="https://wa.me/6285711899575"
+                      target="_blank"
+                      className="flex items-center rounded-md bg-primary px-2 py-1 text-center text-white transition duration-300 hover:bg-opacity-90"
+                    >
+                      <FaWhatsapp className="mr-2" />
+                      {language == "eng" ? "Contact Us" : "Hubungi Kami"}
+                    </a>
+                  </div>
                 </div>
 
                 {/* <!-- Item Harga --> */}
-                <div className="animate_top group relative mx-auto w-full rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
+                <div className="animate_top group relative mx-auto flex w-full flex-col rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
                   {/* <div className="absolute -right-3.5 top-7.5 -rotate-90 rounded-bl-full rounded-tl-full bg-[#C64D27] px-4.5 py-1.5 text-metatitle font-medium uppercase text-white">
                     terlaris
                   </div> */}
@@ -294,10 +374,20 @@ const Pricing = () => {
                       </li>
                     </ul>
                   </div>
+                  <div className="mx-auto mt-auto flex w-full justify-center">
+                    <a
+                      href="https://wa.me/6285711899575"
+                      target="_blank"
+                      className="flex items-center rounded-md bg-primary px-2 py-1 text-center text-white transition duration-300 hover:bg-opacity-90"
+                    >
+                      <FaWhatsapp className="mr-2" />
+                      {language == "eng" ? "Contact Us" : "Hubungi Kami"}
+                    </a>
+                  </div>
                 </div>
 
                 {/* <!-- Item Harga --> */}
-                <div className="animate_top group relative mx-auto w-full rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
+                <div className="animate_top group relative mx-auto flex w-full flex-col rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
                   <h3 className="mb-4 flex items-center justify-between text-3xl font-bold text-black dark:text-white xl:text-3xl">
                     Bizease Project
                     <IoMdConstruct className="ml-2 text-purple-600" />
@@ -321,10 +411,20 @@ const Pricing = () => {
                       </li>
                     </ul>
                   </div>
+                  <div className="mx-auto mt-auto flex w-full justify-center">
+                    <a
+                      href="https://wa.me/6285711899575"
+                      target="_blank"
+                      className="flex items-center rounded-md bg-primary px-2 py-1 text-center text-white transition duration-300 hover:bg-opacity-90"
+                    >
+                      <FaWhatsapp className="mr-2" />
+                      {language == "eng" ? "Contact Us" : "Hubungi Kami"}
+                    </a>
+                  </div>
                 </div>
 
                 {/* <!-- Item Harga --> */}
-                <div className="animate_top group relative mx-auto w-full rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
+                <div className="animate_top group relative mx-auto flex w-full flex-col rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
                   <h3 className="mb-4 flex items-center justify-between text-3xl font-bold text-black dark:text-white xl:text-3xl">
                     Bizease HRD
                     <FaUserShield className="ml-2 text-red-600" />
@@ -348,10 +448,20 @@ const Pricing = () => {
                       </li>
                     </ul>
                   </div>
+                  <div className="mx-auto mt-auto flex w-full justify-center">
+                    <a
+                      href="https://wa.me/6285711899575"
+                      target="_blank"
+                      className="flex items-center rounded-md bg-primary px-2 py-1 text-center text-white transition duration-300 hover:bg-opacity-90"
+                    >
+                      <FaWhatsapp className="mr-2" />
+                      {language == "eng" ? "Contact Us" : "Hubungi Kami"}
+                    </a>
+                  </div>
                 </div>
 
                 {/* <!-- Item Harga --> */}
-                <div className="animate_top group relative mx-auto w-full rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
+                <div className="animate_top group relative mx-auto flex w-full flex-col rounded-lg border border-stroke bg-white p-4 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none xl:p-6">
                   <h3 className="mb-4 flex items-center justify-between text-3xl font-bold text-black dark:text-white xl:text-3xl">
                     Bizease Finance
                     <GiMoneyStack className="ml-2 text-teal-600" />
@@ -369,19 +479,19 @@ const Pricing = () => {
                       </li>
                     </ul>
                   </div>
+                  <div className="mx-auto mt-auto flex w-full justify-center">
+                    <a
+                      href="https://wa.me/6285711899575"
+                      target="_blank"
+                      className="flex items-center rounded-md bg-primary px-2 py-1 text-center text-white transition duration-300 hover:bg-opacity-90"
+                    >
+                      <FaWhatsapp className="mr-2" />
+                      {language == "eng" ? "Contact Us" : "Hubungi Kami"}
+                    </a>
+                  </div>
                 </div>
               </>
             )}
-          </div>
-          <div className="mx-auto mt-5 flex w-full justify-center">
-            <a
-              href="https://wa.me/6285711899575"
-              target="_blank"
-              className="flex items-center rounded-md bg-primary px-4 py-2 text-center text-white transition duration-300 hover:bg-opacity-90"
-            >
-              <FaWhatsapp className="mr-2" />
-              {language == "eng" ? "Contact Us" : "Hubungi Kami"}
-            </a>
           </div>
         </div>
       </section>

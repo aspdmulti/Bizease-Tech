@@ -31,7 +31,7 @@ const About = () => {
               whileInView="visible"
               transition={{ duration: 0.5, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_left relative mx-auto hidden aspect-[588/380] rounded bg-gradient-to-t from-white to-[#F9E5D7] md:block md:w-1/2"
+              className="animate_left relative mx-auto hidden aspect-[750/750] rounded bg-gradient-to-t from-white to-[#F9E5D7] md:block md:w-1/2"
             >
               <Image
                 src="/images/about/about-light-01.png"
@@ -70,7 +70,7 @@ const About = () => {
                     {/* <span className="mb-4 mr-4 inline-flex rounded-full bg-meta px-4.5 py-1 text-metatitle uppercase text-white ">
                   New
                 </span>{" "} */}
-                    Easy to Use, All in One Software
+                    Grow with Your Business
                   </span>
                   <h2 className="relative mb-6 text-2xl font-bold text-black dark:text-white xl:text-4xl">
                     A Complete Solution for {"   "}
@@ -78,10 +78,11 @@ const About = () => {
                       Your Business Processes
                     </span>
                   </h2>
-                  <p>
-                    Access your various data easily through a clear interface
-                    and multiple filters. You can view your data in real-time
-                    from anywhere and at any time
+                  <p className=" text-justify">
+                    Bizease Tech's services are all modular and adaptable to
+                    your business needs. You can start by boosting your digital
+                    presence with Bizease Website, or integrate all our services
+                    to automate your business processes
                   </p>
 
                   <div className="mt-7.5 flex items-center gap-5">
@@ -92,11 +93,14 @@ const About = () => {
                     </div>
                     <div className="w-3/4">
                       <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                        Search your data easily
+                        Custom-made, Applications tailored to your business
+                        needs
                       </h3>
                       <p>
-                        With various filters such as time, date, category, name,
-                        and more, data searching has never been easier.
+                        We know that every business is unique, even if they
+                        operate in the same field. Therefore, we provide
+                        application development services that can be tailored to
+                        your business needs.
                       </p>
                     </div>
                   </div>
@@ -108,11 +112,11 @@ const About = () => {
                     </div>
                     <div className="w-3/4">
                       <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                        Complete with charts for visual aid
+                        Special prices for complete packages
                       </h3>
                       <p>
-                        Monitor your business growth through graphs to
-                        facilitate decision-making.
+                        Use all our services to get special prices and let your
+                        business processes run automatically.
                       </p>
                     </div>
                   </div>
@@ -123,7 +127,7 @@ const About = () => {
                     {/* <span className="mb-4 mr-4 inline-flex rounded-full bg-meta px-4.5 py-1 text-metatitle uppercase text-white ">
                   Baru
                 </span>{" "} */}
-                    Mudah Digunakan, Perangkat Lunak All-in-One
+                    Berkembang bersama Bisnis Anda
                   </span>
                   <h2 className="relative mb-6 text-2xl font-bold text-black dark:text-white xl:text-4xl">
                     Solusi Lengkap untuk {"   "}
@@ -131,10 +135,12 @@ const About = () => {
                       Proses Bisnis Anda
                     </span>
                   </h2>
-                  <p>
-                    Akses berbagai data Anda dengan mudah melalui antarmuka yang
-                    jelas dan berbagai filter.Anda dapat melihat data Anda
-                    secara real-time dari mana saja dan kapan saja.
+                  <p className=" text-justify">
+                    Seluruh jasa Bizease Tech bersifat modular dan dapat
+                    disesuaikan dengan kebutuhan bisnis Anda. Mulai dari sekedar
+                    meningkatkan eksistensi bisnis Anda menggunakan Bizease
+                    Website, hingga menggunakan seluruh jasa kami sehingga
+                    proses bisnis Anda dapat berjalan secara otomatis.
                   </p>
 
                   <div className="mt-7.5 flex items-center gap-5">
@@ -145,12 +151,14 @@ const About = () => {
                     </div>
                     <div className="w-3/4">
                       <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                        Cari data Anda dengan mudah
+                        Custom-made, Aplikasi disesuaikan dengan kebutuhan
+                        bisnis Anda
                       </h3>
-                      <p>
-                        Dengan berbagai filter seperti waktu, tanggal, kategori,
-                        nama, dan lainnya, pencarian data tidak pernah semudah
-                        ini.
+                      <p className=" text-justify">
+                        Kami paham bahwa setiap bisnis itu unik,meskipun
+                        bergerak di bidang yang sama. Oleh karena itu, kami
+                        menyediakan jasa pembuatan aplikasi yang dapat
+                        disesuaikan dengan kebutuhan bisnis Anda.
                       </p>
                     </div>
                   </div>
@@ -162,11 +170,11 @@ const About = () => {
                     </div>
                     <div className="w-3/4">
                       <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                        Lengkap dengan grafik untuk bantuan visual
+                        Harga spesial untuk paket lengkap
                       </h3>
-                      <p>
-                        Pantau pertumbuhan bisnis Anda melalui grafik untuk
-                        memudahkan pengambilan keputusan.
+                      <p className=" text-justify">
+                        Pakai seluruh jasa kami untuk mendapatkan harga spesial
+                        dan proses bisnis Anda dapat berjalan secara otomatis.
                       </p>
                     </div>
                   </div>
@@ -189,7 +197,7 @@ const About = () => {
               whileInView="visible"
               transition={{ duration: 0.5, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_left relative mx-auto mb-3 block aspect-[588/380] w-full rounded bg-gradient-to-t from-white to-[#F9E5D7] md:hidden md:w-1/2"
+              className="animate_left relative mx-auto mb-3 block aspect-[750/750] w-full rounded bg-gradient-to-t from-white to-[#F9E5D7] md:hidden md:w-1/2"
             >
               <Image
                 src="/images/about/about-light-01.png"
@@ -259,7 +267,7 @@ const About = () => {
                       Sepenuhnya Responsif
                     </span>
                   </h2>
-                  <p>
+                  <p className=" text-justify">
                     Perangkat lunak kami sepenuhnya responsif, memastikan
                     pengalaman pengguna yang mulus di perangkat PC dan
                     Smartphone untuk akses yang mudah ke semua fitur.
@@ -301,7 +309,7 @@ const About = () => {
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_right relative mx-auto block aspect-[588/588] w-full rounded bg-gradient-to-t from-white to-[#F9E5D7] md:w-1/2"
+              className="animate_right relative mx-auto block aspect-[750/750] w-full rounded bg-gradient-to-t from-white to-[#F9E5D7] md:w-1/2"
             >
               <Image
                 src="/images/about/about-light-02.png"

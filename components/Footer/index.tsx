@@ -94,7 +94,7 @@ const Footer = () => {
                             href="#features"
                             className="mb-3 inline-block hover:text-primary"
                           >
-                            Features
+                            Our Services
                           </a>
                         </li>
                         <li>
@@ -135,7 +135,7 @@ const Footer = () => {
                             href="#features"
                             className="mb-3 inline-block hover:text-primary"
                           >
-                            Fitur
+                            Jasa Kami
                           </a>
                         </li>
                         <li>
