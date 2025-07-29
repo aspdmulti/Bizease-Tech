@@ -12,10 +12,10 @@ const Hero = () => {
   return (
     <>
       <section id="home" className="overflow-hidden">
-        <div className="min-h-screen bg-[url('/images/hero/hero.png')] bg-cover bg-[position:60%] bg-no-repeat text-black lg:bg-center">
-          <div className="flex min-h-screen text-center lg:px-11 lg:pt-10  lg:text-left">
+        <div className="min-h-screen bg-[url('/images/hero/hero2.png')] bg-cover bg-[position:60%] bg-no-repeat text-black lg:bg-[url('/images/hero/hero.png')] lg:bg-center">
+          <div className="flex min-h-screen bg-[linear-gradient(to_bottom,_white_30%,_transparent_100%)] text-center lg:bg-none lg:px-11 lg:pt-10 lg:text-left">
             {language == "eng" ? (
-              <div className="indo:hidden mx-4 flex-col rounded bg-opacity-90 p-3 lg:mx-0 lg:pr-50  lg:text-left">
+              <div className="indo:hidden mx-4 mt-30 flex-col rounded bg-opacity-90 p-3 lg:mx-0 lg:mt-0 lg:pr-50  lg:text-left">
                 <p className="mb-3 mt-19 text-3xl font-bold text-[#C64D27] lg:mb-5 lg:text-5xl">
                   Bizease Tech
                 </p>
@@ -26,7 +26,7 @@ const Hero = () => {
                 </p>
               </div>
             ) : (
-              <div className="mx-4 flex-col rounded bg-opacity-90 p-3 lg:mx-0 lg:pr-50  lg:text-left">
+              <div className="mx-4 mt-16 flex-col rounded bg-opacity-90 p-3 lg:mx-0 lg:mt-0 lg:pr-50  lg:text-left">
                 <p className="mb-3 mt-19 text-3xl font-bold text-[#C64D27] lg:mb-5 lg:text-5xl">
                   Bizease Tech
                 </p>
