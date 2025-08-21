@@ -51,9 +51,10 @@ const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
               {desc1}
             </p>
           ) : (
-            <p className="flex h-24 items-center rounded-b bg-[#F9E5D7] p-2 text-lg text-black lg:text-xl">
-              {desc1ind}
-            </p>
+            // <p className="flex h-24 items-center rounded-b bg-[#F9E5D7] p-2 text-lg text-black lg:text-xl">
+            //   {desc1ind}
+            // </p>
+            ""
           )}
         </motion.div>
         <motion.div
@@ -86,9 +87,10 @@ const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
               {desc2}
             </p>
           ) : (
-            <p className="flex h-24 items-center rounded-b bg-[#F9E5D7] p-2 text-lg text-black lg:text-xl">
-              {desc2ind}
-            </p>
+            // <p className="flex h-24 items-center rounded-b bg-[#F9E5D7] p-2 text-lg text-black lg:text-xl">
+            //   {desc2ind}
+            // </p>
+            ""
           )}
         </motion.div>
         <motion.div
@@ -121,9 +123,10 @@ const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
               {desc3}
             </p>
           ) : (
-            <p className="flex h-24 items-center rounded-b bg-[#F9E5D7] p-2 text-lg text-black lg:text-xl">
-              {desc3ind}
-            </p>
+            // <p className="flex h-24 items-center rounded-b bg-[#F9E5D7] p-2 text-lg text-black lg:text-xl">
+            //   {desc3ind}
+            // </p>
+            ""
           )}
         </motion.div>
       </div>
