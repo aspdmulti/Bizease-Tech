@@ -31,7 +31,7 @@ const About = () => {
               whileInView="visible"
               transition={{ duration: 0.5, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_left relative mx-auto hidden aspect-[750/750] rounded bg-gradient-to-t from-white to-[#F9E5D7] md:block md:w-1/2"
+              className="animate_left relative mx-auto hidden aspect-[650/750] rounded bg-gradient-to-t from-white to-[#F9E5D7] md:block md:w-1/2"
             >
               <Image
                 src="/images/about/about-light-01.png"
@@ -197,7 +197,7 @@ const About = () => {
               whileInView="visible"
               transition={{ duration: 0.5, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_left relative mx-auto mb-3 block aspect-[750/750] w-full rounded bg-gradient-to-t from-white to-[#F9E5D7] md:hidden md:w-1/2"
+              className="animate_left relative mx-auto mb-3 block aspect-[650/750] w-full rounded bg-gradient-to-t from-white to-[#F9E5D7] md:hidden md:w-1/2"
             >
               <Image
                 src="/images/about/about-light-01.png"
@@ -309,7 +309,7 @@ const About = () => {
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_right relative mx-auto block aspect-[750/750] w-full rounded bg-gradient-to-t from-white to-[#F9E5D7] md:w-1/2"
+              className="animate_right relative mx-auto block aspect-[650/750] w-full rounded bg-gradient-to-t from-white to-[#F9E5D7] md:w-1/2"
             >
               <Image
                 src="/images/about/about-light-02.png"
