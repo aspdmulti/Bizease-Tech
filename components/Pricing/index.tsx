@@ -98,7 +98,7 @@ const Pricing = () => {
                     <GiShoppingCart className="ml-2 text-yellow-600" />
                   </h3>
                   <h4 className="mb-2 text-para2 font-medium text-black dark:text-white">
-                    Start from IDR 300,000/Month
+                    Start from IDR 200,000/Month
                   </h4>
                   <div className="mt-5 border-t border-stroke pb-6 pt-5 dark:border-strokedark">
                     <ul>
@@ -135,7 +135,7 @@ const Pricing = () => {
                     <FaUsers className="ml-2 text-green-600" />
                   </h3>
                   <h4 className="mb-2 text-para2 font-medium text-black dark:text-white">
-                    Start from IDR 350,000/Month
+                    Start from IDR 250,000/Month
                   </h4>
                   <div className="mt-5 border-t border-stroke pb-6 pt-5 dark:border-strokedark">
                     <ul>
@@ -172,7 +172,7 @@ const Pricing = () => {
                     <IoMdConstruct className="ml-2 text-purple-600" />
                   </h3>
                   <h4 className="mb-2 text-para2 font-medium text-black dark:text-white">
-                    Start from IDR 350,000/Month
+                    Start from IDR 250,000/Month
                   </h4>
                   <div className="mt-5 border-t border-stroke pb-6 pt-5 dark:border-strokedark">
                     <ul>
@@ -209,7 +209,7 @@ const Pricing = () => {
                     <FaUserShield className="ml-2 text-red-600" />
                   </h3>
                   <h4 className="mb-2 text-para2 font-medium text-black dark:text-white">
-                    Start from IDR 250,000/Month
+                    Start from IDR 200,000/Month
                   </h4>
                   <div className="mt-5 border-t border-stroke pb-6 pt-5 dark:border-strokedark">
                     <ul>
@@ -316,7 +316,7 @@ const Pricing = () => {
                     <GiShoppingCart className="ml-2 text-yellow-600" />
                   </h3>
                   <h4 className="mb-2 text-para2 font-medium text-black dark:text-white">
-                    Mulai dari IDR 300.000/Bulan{" "}
+                    Mulai dari IDR 200.000/Bulan{" "}
                   </h4>
                   <div className="mt-5 border-t border-stroke pb-6 pt-5 dark:border-strokedark">
                     <ul>
@@ -356,7 +356,7 @@ const Pricing = () => {
                     <FaUsers className="ml-2 text-green-600" />
                   </h3>
                   <h4 className="mb-2 text-para2 font-medium text-black dark:text-white">
-                    Mulai dari IDR 350.000/Bulan{" "}
+                    Mulai dari IDR 250.000/Bulan{" "}
                   </h4>
                   <div className="mt-5 border-t border-stroke pb-6 pt-5 dark:border-strokedark">
                     <ul>
@@ -393,7 +393,7 @@ const Pricing = () => {
                     <IoMdConstruct className="ml-2 text-purple-600" />
                   </h3>
                   <h4 className="mb-2 text-para2 font-medium text-black dark:text-white">
-                    Mulai dari IDR 350.000/Bulan{" "}
+                    Mulai dari IDR 250.000/Bulan{" "}
                   </h4>
                   <div className="mt-5 border-t border-stroke pb-6 pt-5 dark:border-strokedark">
                     <ul>
@@ -430,7 +430,7 @@ const Pricing = () => {
                     <FaUserShield className="ml-2 text-red-600" />
                   </h3>
                   <h4 className="mb-2 text-para2 font-medium text-black dark:text-white">
-                    Mulai dari IDR 250.000/Bulan{" "}
+                    Mulai dari IDR 200.000/Bulan{" "}
                   </h4>
                   <div className="mt-5 border-t border-stroke pb-6 pt-5 dark:border-strokedark">
                     <ul>
