@@ -67,7 +67,7 @@ const FunFact = () => {
             height={384}
             src="/images/shape/shape-04.png"
             alt="Man"
-            className="absolute -left-15 -top-25 -z-1 lg:left-0"
+            className="absolute -left-0 -top-20 -z-1 w-40 lg:left-15"
           />
           <Image
             fill
