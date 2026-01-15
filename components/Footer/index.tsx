@@ -195,7 +195,7 @@ const Footer = () => {
                         className="mb-3 flex items-center gap-2 hover:text-primary"
                       >
                         <FaWhatsapp />
-                        +62-857-1189-9575
+                        0857-1189-9575
                       </a>
                     </li>
                     <li>

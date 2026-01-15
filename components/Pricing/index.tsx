@@ -61,7 +61,7 @@ const Pricing = () => {
                     <IoMdCloud className="ml-2 text-blue-600" />
                   </h3>
                   <h4 className="mb-2 text-para2 font-medium text-black dark:text-white">
-                    Start from IDR 100,000/Month
+                    Start from IDR 120,000/Month
                   </h4>
                   <div className="mt-5 border-t border-stroke pb-6 pt-5 dark:border-strokedark">
                     <ul>
@@ -279,7 +279,7 @@ const Pricing = () => {
                     <IoMdCloud className="ml-2 text-blue-600" />
                   </h3>
                   <h4 className="mb-2 text-para2 font-medium text-black dark:text-white">
-                    Mulai dari IDR 100.000/Bulan{" "}
+                    Mulai dari IDR 120.000/Bulan{" "}
                   </h4>
                   <div className="mt-5 border-t border-stroke pb-6 pt-5 dark:border-strokedark">
                     <ul>
